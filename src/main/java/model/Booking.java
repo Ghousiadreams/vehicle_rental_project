@@ -1,5 +1,6 @@
 package model;
 
+import java.sql.Date;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 
@@ -8,21 +9,17 @@ public class Booking {
     private int bookingId;
     private int userId;
     private int vehicleId;
-
-    private LocalDate startDate;
-    private LocalDate endDate;
-
+    private Date startDate;
+    private Date endDate;
     private double totalPrice;
-
     private String status;
-
     private LocalDateTime createdAt;
 
     public Booking() {
     }
 
     public Booking(int bookingId, int userId, int vehicleId,
-                   LocalDate startDate, LocalDate endDate,
+                   Date startDate, Date endDate,
                    double totalPrice, String status,
                    LocalDateTime createdAt) {
 
@@ -60,19 +57,19 @@ public class Booking {
         this.vehicleId = vehicleId;
     }
 
-    public LocalDate getStartDate() {
+    public Date getStartDate() {
         return startDate;
     }
 
-    public void setStartDate(LocalDate startDate) {
+    public void setStartDate(Date startDate) {
         this.startDate = startDate;
     }
 
-    public LocalDate getEndDate() {
+    public Date getEndDate() {
         return endDate;
     }
 
-    public void setEndDate(LocalDate endDate) {
+    public void setEndDate(Date endDate) {
         this.endDate = endDate;
     }
 

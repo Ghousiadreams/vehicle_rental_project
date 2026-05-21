@@ -7,13 +7,9 @@ public class Payment {
     private int paymentId;
     private int bookingId;
     private int userId;
-
     private double amount;
-
     private String paymentMethod;
-
     private String paymentStatus;
-
     private LocalDateTime paymentDate;
 
     public Payment() {

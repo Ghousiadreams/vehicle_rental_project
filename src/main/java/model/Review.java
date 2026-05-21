@@ -7,14 +7,11 @@ public class Review {
     private int reviewId;
     private int userId;
     private int vehicleId;
-
     private int rating;
-
     private String comment;
-
     private LocalDateTime createdAt;
 
-    public Review() {
+   public Review() {
     }
 
     public Review(int reviewId, int userId, int vehicleId,

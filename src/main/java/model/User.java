@@ -57,8 +57,8 @@ public class User {
         return phone;
     }
 
-    public void setPhone(long phone) {
-        this.phone = phone;
+    public void setPhone(long string) {
+        this.phone = string;
     }
 
     public String getRole() {
