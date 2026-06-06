@@ -9,6 +9,10 @@ import java.util.List;
 import dao.PaymentDAO;
 import model.Payment;
 import util.DBConnection;
+import java.util.List;
+import dao.PaymentDAO;
+import model.Payment;
+
 
 public class PaymentDAOImpl implements PaymentDAO {
 private Connection connection = DBConnection.getConnection();

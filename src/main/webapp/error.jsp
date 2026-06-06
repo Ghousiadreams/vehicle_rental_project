@@ -4,15 +4,15 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Vehicle Rental System</title>
+<title>Error</title>
 </head>
 <body>
 
-<h1>Vehicle Rental System</h1>
+<h2>Something Went Wrong</h2>
 
-<a href="login.jsp">Login</a>
-<a href="register.jsp">Register</a>
-<a href="home">View Vehicles</a>
+<p>Please try again later.</p>
+
+<a href="index.jsp">Go Back Home</a>
 
 </body>
 </html>
